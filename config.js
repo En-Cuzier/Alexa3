@@ -29,7 +29,7 @@ module.exports = {
     OWNER: process.env.OWNER_NAME === undefined ? 'Amazone' : process.env.OWNER_NAME,
     OWNERNUM: process.env.OWNER_NUMBER === undefined ? '940000000000' : process.env.OWNER_NUMBER,
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
-    ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg' : process.env.ALIVE_LOGO,
+    ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://telegra.ph/file/e03e7e9258b292cf33cf1.jpg' : process.env.ALIVE_LOGO,
     TAGREPLY: process.env.TAG_REPLY === undefined ? '919072790587@s.whatsapp.net' : process.env.TAG_REPLY,
     INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
