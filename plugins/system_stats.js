@@ -20,7 +20,7 @@ const Lang = Language.getString('system_stats');
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "\n\n*👩‍🦰Amazone Alexa*\n*💫🧚‍♀️Hey There Im Alive Now*\n\n*◉Version :► 6.2.1 (Public Release)*\n*◉Branch  :► Awsh*\n*◉About :► Amazone Alexa Is a Powerfull Bot For Whatsapp.*\n*◯●Github Link :►https://tinyurl.com/yhq3c6ms-\n\n*💫©Join Our Group*\n*▷📑News & Update Report*\n_◈https://chat.whatsapp.com/JdNWV3viiGKGINYNrb5oy8*\n▷⚡Official Pluggins Group* \n ◈https://chat.whatsapp.com/JJs2iwfF0VKL3IWrIyr7AT"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n      *Hey buddy*\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n\n   ```⚜i'm still alive now⚜```\n\n*❍Author*  ► ```En cuzier```\n*❍Hosted*  ► ```Heroku```\n*❍Branch*  ► ```Alexa main```\n*❍Github*  ► ```https://github.com/En-Cuzier/QUEEN-ALEXA```\n*💫Thank you for using🧚‍♀️*\n*queen alexa*"})
 
     }
     else {
